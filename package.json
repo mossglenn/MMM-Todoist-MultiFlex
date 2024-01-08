@@ -1,8 +1,8 @@
 {
-  "name": "mmm-hello-world-ts",
+  "name": "mmm-todoist-multiflex",
   "version": "1.0.0",
   "description": "Magic Mirror example module in Typescript",
-  "main": "MMM-Hello-World-Ts.js",
+  "main": "MMM-Todoist-MultiFlex.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ismarslomic/MMM-Hello-World-Ts.git"

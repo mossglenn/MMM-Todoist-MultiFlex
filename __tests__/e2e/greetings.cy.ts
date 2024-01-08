@@ -1,11 +1,11 @@
-describe('MMM-Hello-World-Ts', () => {
+describe('MMM-Todoist-MultiFlex', () => {
   beforeEach(() => {
-    cy.visit('/')
-  })
+    cy.visit('/');
+  });
 
   it('greetings message is displayed', () => {
-    cy.get('div[id$="MMM-Hello-World-Ts"] > div > div > div[class="bright light medium green"]')
-      .should('have.text', 'MMM-Hello-World-Ts says: Hello world Ismar!')
-      .should('be.visible')
-  })
-})
+    cy.get('div[id$="MMM-Todoist-MultiFlex"] > div > div > div[class="bright light medium green"]')
+      .should('have.text', 'MMM-Todoist-MultiFlex says: Hello world Ismar!')
+      .should('be.visible');
+  });
+});
