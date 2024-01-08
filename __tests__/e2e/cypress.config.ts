@@ -1,4 +1,4 @@
-import { defineConfig } from 'cypress'
+import { defineConfig } from 'cypress';
 
 // noinspection JSUnusedGlobalSymbols
 export default defineConfig({
@@ -8,4 +8,4 @@ export default defineConfig({
     supportFile: false,
     specPattern: '__tests__/e2e/**/*.cy.ts',
   },
-})
+});

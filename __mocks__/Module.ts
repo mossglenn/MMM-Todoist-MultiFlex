@@ -1,4 +1,4 @@
-import ModuleProperties = Module.ModuleProperties
+import ModuleProperties = Module.ModuleProperties;
 
 export interface MM2ModuleHelper {
   /**
@@ -6,5 +6,5 @@ export interface MM2ModuleHelper {
    * @param moduleName the name of the module
    * @param moduleProperties an object with the module properties
    */
-  register<Config>(moduleName: string, moduleProperties: ModuleProperties<Config>): void
+  register<Config>(moduleName: string, moduleProperties: ModuleProperties<Config>): void;
 }

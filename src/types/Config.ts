@@ -1,3 +1,3 @@
 export type Config = {
-  text: string
-}
+  text: string;
+};

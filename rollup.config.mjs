@@ -1,8 +1,8 @@
-import typescript from '@rollup/plugin-typescript'
-import nodeResolve from '@rollup/plugin-node-resolve'
-import commonjs from '@rollup/plugin-commonjs'
-import terser from '@rollup/plugin-terser'
-import pkg from './package.json' assert { type: 'json' }
+import typescript from '@rollup/plugin-typescript';
+import nodeResolve from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
+import terser from '@rollup/plugin-terser';
+import pkg from './package.json' assert { type: 'json' };
 
 // Banner to be placed at the top of the compiled files
 const bannerText = `/*! *****************************************************************************
@@ -16,7 +16,7 @@ const bannerText = `/*! ********************************************************
   Licence: ${pkg.license}
 
   This file is auto-generated. Do not edit.
-***************************************************************************** */`
+***************************************************************************** */`;
 export default [
   {
     input: './src/frontend/Frontend.ts',
@@ -43,4 +43,4 @@ export default [
       sourcemap: true,
     },
   },
-]
+];
